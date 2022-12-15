@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 400px;
+}
+
+/*------------------------header------------------------------------------*/
+
+/* .header-logo {
+    background: url(../pictures/imagePokemon.jpg);
+    
+} */
+nav,
+#header-logo {
+    min-width: 100%;
+
+}
+
+/*---------------------------------------------------------------------------*/
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    max-width: 300px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: blue;
+    margin: 120px 0;
+    border: 5px solid #000;
+}
+
+#title,
+#header-logo {
+    width: 50%;
+}
+
+#image-wrapper {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 75%;
+
+}
+
+#image {
+    width: 100%;
+}
+
+#header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+#name {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+#button {
+    background-color: #ff7a22;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 900;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all.2s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all.2s ease;
+    -moz-transition: all.2s ease;
+    -ms-transition: all.2s ease;
+    -o-transition: all.2s ease;
+}
+
+#button:hover {
+    transform: translateX(-10px);
+    background-color: #ff8839;
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+}
